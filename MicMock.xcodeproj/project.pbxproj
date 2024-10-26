@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		1869C5A22CCC85E1008553D7 /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		18B2B5DC2CCBDBFA0088AC7D /* MicMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +33,7 @@
 		18B2B5D32CCBDBFA0088AC7D = {
 			isa = PBXGroup;
 			children = (
+				1869C5A22CCC85E1008553D7 /* sample.playground */,
 				18B2B5DE2CCBDBFA0088AC7D /* MicMock */,
 				18B2B5DD2CCBDBFA0088AC7D /* Products */,
 			);
