@@ -10,7 +10,7 @@ import SwiftUI
 let topPointer = CGPoint(x: 250, y: 0)
 let rightPointer = CGPoint(x: 500, y: 250)
 let bottomPointer = CGPoint(x: 250, y: 500)
-let leftPointer = CGPoint(x: 0, y: 250)
+let leftPointer = CGPoint(x: 0, y:  250)
 let points: [CGPoint] = [topPointer, rightPointer, bottomPointer, leftPointer]
 
 struct Diamond: Shape {
