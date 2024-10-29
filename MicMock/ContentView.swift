@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// ベジェ曲線での楕円
+
 struct ContentView: View {
     var body: some View {
         // ここを中心点と仮決めして作成
