@@ -6,38 +6,102 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DD6DBFB0950D5ACA7BBB5F25E1C1A342 /* MobileVLCKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41861FAD9A4BF10B77AE2077E222AF7D /* Build configuration list for PBXAggregateTarget "MobileVLCKit" */;
+			buildPhases = (
+				EC3F5098316C1BF91803A23EFD67F49E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = MobileVLCKit;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0A653DF0A301A5A1D8735188D45BE450 /* Pods-MicMock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F5EA0935C1CBE2C1CCD34C30B7D720 /* Pods-MicMock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42B2FAAA2E87D4990089CD0429CBBB3C /* Pods-MicMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EA454DD731831E90DF339ED4B3B902 /* Pods-MicMock-dummy.m */; };
-		5C741667B8AB2E86BB86B210E23389DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C88605DC926B14F224375F7178B7410B /* Pods-MicMock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA78766DAA954A675F1406E8705F74E3 /* Pods-MicMock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1CE158D966068E4B28C006DA73AFA29 /* Pods-MicMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7414D4A347B9648D9C29848B5FBCF3 /* Pods-MicMock-dummy.m */; };
+		DACF54313BADA65E05816371FA93B5CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9B60CDCD365BE4BA9EAC0E7061577FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6DBFB0950D5ACA7BBB5F25E1C1A342;
+			remoteInfo = MobileVLCKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0965519D5B771A013089FCB22D7C2945 /* Pods-MicMock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicMock-Info.plist"; sourceTree = "<group>"; };
-		2DBBC1784D59B02DEC9B965381754911 /* Pods-MicMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicMock.release.xcconfig"; sourceTree = "<group>"; };
+		013AA345DA189F58622A7BF9349358DA /* MobileVLCKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MobileVLCKit.xcframework; sourceTree = "<group>"; };
+		1B02BB6EA2C6FEC8FB20A29DCD6D4030 /* Pods-MicMock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicMock-Info.plist"; sourceTree = "<group>"; };
+		2B43D3CE720EE769F47EFD5C7A596C7A /* MobileVLCKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MobileVLCKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		2CC44975219030EEC5D2CE8C5BE856CA /* Pods-MicMock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MicMock-frameworks.sh"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		483ED42872107AD475F306BDB6A44959 /* Pods-MicMock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MicMock-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5BCBB3775303DB5DCB15E26BC262F038 /* Pods-MicMock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicMock-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A25DE2B1D37B75E4FB8E4D1A2ED807E /* Pods-MicMock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MicMock-acknowledgements.plist"; sourceTree = "<group>"; };
 		715595656BFB16F826868C590B982375 /* Pods-MicMock */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MicMock"; path = Pods_MicMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B065BA3AEBF5739B5F0CE91F55204F9 /* Pods-MicMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicMock.debug.xcconfig"; sourceTree = "<group>"; };
-		96EA454DD731831E90DF339ED4B3B902 /* Pods-MicMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MicMock-dummy.m"; sourceTree = "<group>"; };
+		882495680C2E2FC892427AE783264D16 /* Pods-MicMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicMock.debug.xcconfig"; sourceTree = "<group>"; };
+		8A9ED0CA96EA94515416A30CE2F3A01D /* MobileVLCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobileVLCKit.release.xcconfig; sourceTree = "<group>"; };
+		9B8E15D971D858EC5328B8EDE6875ABF /* MobileVLCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobileVLCKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D7F5EA0935C1CBE2C1CCD34C30B7D720 /* Pods-MicMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MicMock-umbrella.h"; sourceTree = "<group>"; };
-		E744841615A9AEC8A1F9657304C809CF /* Pods-MicMock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MicMock.modulemap"; sourceTree = "<group>"; };
+		A8236BD7CD5F4241B79786FAE5905D65 /* Pods-MicMock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MicMock.modulemap"; sourceTree = "<group>"; };
+		AA78766DAA954A675F1406E8705F74E3 /* Pods-MicMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MicMock-umbrella.h"; sourceTree = "<group>"; };
+		AB87D8F13DBA62821B672209EC398F96 /* Pods-MicMock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MicMock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD7414D4A347B9648D9C29848B5FBCF3 /* Pods-MicMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MicMock-dummy.m"; sourceTree = "<group>"; };
+		FEC0B628BE4DFE8AADD0FCE0147C5953 /* Pods-MicMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicMock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DCC5C968E68DF004AD4456541212F072 /* Frameworks */ = {
+		793E0E9565CB1E8831BAED14E571EB2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C741667B8AB2E86BB86B210E23389DA /* Foundation.framework in Frameworks */,
+				DACF54313BADA65E05816371FA93B5CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC057866C37662CFA11FF13DE28CF81 /* Pods-MicMock */ = {
+			isa = PBXGroup;
+			children = (
+				A8236BD7CD5F4241B79786FAE5905D65 /* Pods-MicMock.modulemap */,
+				AB87D8F13DBA62821B672209EC398F96 /* Pods-MicMock-acknowledgements.markdown */,
+				5A25DE2B1D37B75E4FB8E4D1A2ED807E /* Pods-MicMock-acknowledgements.plist */,
+				CD7414D4A347B9648D9C29848B5FBCF3 /* Pods-MicMock-dummy.m */,
+				2CC44975219030EEC5D2CE8C5BE856CA /* Pods-MicMock-frameworks.sh */,
+				1B02BB6EA2C6FEC8FB20A29DCD6D4030 /* Pods-MicMock-Info.plist */,
+				AA78766DAA954A675F1406E8705F74E3 /* Pods-MicMock-umbrella.h */,
+				882495680C2E2FC892427AE783264D16 /* Pods-MicMock.debug.xcconfig */,
+				FEC0B628BE4DFE8AADD0FCE0147C5953 /* Pods-MicMock.release.xcconfig */,
+			);
+			name = "Pods-MicMock";
+			path = "Target Support Files/Pods-MicMock";
+			sourceTree = "<group>";
+		};
+		29E5CC51D3276B7C4B793DF2F48AD669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F3B2E87E239085D710DEA2E9865C052 /* MobileVLCKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2AA422D46B93AC2C4375721D41F861C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B43D3CE720EE769F47EFD5C7A596C7A /* MobileVLCKit-xcframeworks.sh */,
+				9B8E15D971D858EC5328B8EDE6875ABF /* MobileVLCKit.debug.xcconfig */,
+				8A9ED0CA96EA94515416A30CE2F3A01D /* MobileVLCKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobileVLCKit";
+			sourceTree = "<group>";
+		};
 		2C5FCA20FA991BBD55F966058EC04030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -46,12 +110,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46EC6C6E3A3D0073A9321B5F27A410E1 /* Targets Support Files */ = {
+		4FAB55EB11447FD5A282C9CA893766C2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF70886A4E74C469876E94F8E791915D /* Pods-MicMock */,
+				0CC057866C37662CFA11FF13DE28CF81 /* Pods-MicMock */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F3B2E87E239085D710DEA2E9865C052 /* MobileVLCKit */ = {
+			isa = PBXGroup;
+			children = (
+				7D0317FB6022675A95E6D12D97F9BA10 /* Frameworks */,
+				2AA422D46B93AC2C4375721D41F861C5 /* Support Files */,
+			);
+			name = MobileVLCKit;
+			path = MobileVLCKit;
+			sourceTree = "<group>";
+		};
+		7D0317FB6022675A95E6D12D97F9BA10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013AA345DA189F58622A7BF9349358DA /* MobileVLCKit.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -59,8 +141,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29E5CC51D3276B7C4B793DF2F48AD669 /* Pods */,
 				2C5FCA20FA991BBD55F966058EC04030 /* Products */,
-				46EC6C6E3A3D0073A9321B5F27A410E1 /* Targets Support Files */,
+				4FAB55EB11447FD5A282C9CA893766C2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,30 +163,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FF70886A4E74C469876E94F8E791915D /* Pods-MicMock */ = {
-			isa = PBXGroup;
-			children = (
-				E744841615A9AEC8A1F9657304C809CF /* Pods-MicMock.modulemap */,
-				483ED42872107AD475F306BDB6A44959 /* Pods-MicMock-acknowledgements.markdown */,
-				5BCBB3775303DB5DCB15E26BC262F038 /* Pods-MicMock-acknowledgements.plist */,
-				96EA454DD731831E90DF339ED4B3B902 /* Pods-MicMock-dummy.m */,
-				0965519D5B771A013089FCB22D7C2945 /* Pods-MicMock-Info.plist */,
-				D7F5EA0935C1CBE2C1CCD34C30B7D720 /* Pods-MicMock-umbrella.h */,
-				7B065BA3AEBF5739B5F0CE91F55204F9 /* Pods-MicMock.debug.xcconfig */,
-				2DBBC1784D59B02DEC9B965381754911 /* Pods-MicMock.release.xcconfig */,
-			);
-			name = "Pods-MicMock";
-			path = "Target Support Files/Pods-MicMock";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FD8F2587F623CDC8CFE6952AA7B181B8 /* Headers */ = {
+		87D94207EB696BDBC62CAB24EC7F355A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A653DF0A301A5A1D8735188D45BE450 /* Pods-MicMock-umbrella.h in Headers */,
+				C88605DC926B14F224375F7178B7410B /* Pods-MicMock-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +179,17 @@
 /* Begin PBXNativeTarget section */
 		28D3180186B27F663D24BADAFE7FCC22 /* Pods-MicMock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 925D35A5ADA3626DF4AB8BB9921A4325 /* Build configuration list for PBXNativeTarget "Pods-MicMock" */;
+			buildConfigurationList = 9467904249BAC52F3F66AD0F0485E09C /* Build configuration list for PBXNativeTarget "Pods-MicMock" */;
 			buildPhases = (
-				FD8F2587F623CDC8CFE6952AA7B181B8 /* Headers */,
-				0E541560A3446D275689CC9045C7764C /* Sources */,
-				DCC5C968E68DF004AD4456541212F072 /* Frameworks */,
-				286BB3D15BBA4998F3BEAA9D03A934C0 /* Resources */,
+				87D94207EB696BDBC62CAB24EC7F355A /* Headers */,
+				A5FE54EB88871282D02D870301F42B9D /* Sources */,
+				793E0E9565CB1E8831BAED14E571EB2C /* Frameworks */,
+				B652E18ED4E5BDF4D379C7FA4D484A01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70C39401A37ADF9BA178EA0F40C17C8E /* PBXTargetDependency */,
 			);
 			name = "Pods-MicMock";
 			productName = Pods_MicMock;
@@ -152,13 +220,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DD6DBFB0950D5ACA7BBB5F25E1C1A342 /* MobileVLCKit */,
 				28D3180186B27F663D24BADAFE7FCC22 /* Pods-MicMock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		286BB3D15BBA4998F3BEAA9D03A934C0 /* Resources */ = {
+		B652E18ED4E5BDF4D379C7FA4D484A01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,18 +236,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC3F5098316C1BF91803A23EFD67F49E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MobileVLCKit/MobileVLCKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/MobileVLCKit/MobileVLCKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/MobileVLCKit/MobileVLCKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0E541560A3446D275689CC9045C7764C /* Sources */ = {
+		A5FE54EB88871282D02D870301F42B9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B2FAAA2E87D4990089CD0429CBBB3C /* Pods-MicMock-dummy.m in Sources */,
+				D1CE158D966068E4B28C006DA73AFA29 /* Pods-MicMock-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		70C39401A37ADF9BA178EA0F40C17C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobileVLCKit;
+			target = DD6DBFB0950D5ACA7BBB5F25E1C1A342 /* MobileVLCKit */;
+			targetProxy = 9B60CDCD365BE4BA9EAC0E7061577FBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1B66071EE73B6D771EDF34E6A80A6D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC0B628BE4DFE8AADD0FCE0147C5953 /* Pods-MicMock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MicMock/Pods-MicMock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MicMock/Pods-MicMock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A0DF1512B63A29B97B45EC1F2528481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9ED0CA96EA94515416A30CE2F3A01D /* MobileVLCKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67DCBAF57C719E723CD552DCAB39F229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8E15D971D858EC5328B8EDE6875ABF /* MobileVLCKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B86D71A5E7AB53EB2C08DEA39FBD2050 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -307,9 +480,9 @@
 			};
 			name = Debug;
 		};
-		D9DE58B9089325D9E769CB9E612AC329 /* Debug */ = {
+		F47583C91BBECDCF2CB111C90277471C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B065BA3AEBF5739B5F0CE91F55204F9 /* Pods-MicMock.debug.xcconfig */;
+			baseConfigurationReference = 882495680C2E2FC892427AE783264D16 /* Pods-MicMock.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -346,49 +519,18 @@
 			};
 			name = Debug;
 		};
-		DE6474C9D5CAD4668E84F76AA546C822 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DBBC1784D59B02DEC9B965381754911 /* Pods-MicMock.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MicMock/Pods-MicMock-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MicMock/Pods-MicMock.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		41861FAD9A4BF10B77AE2077E222AF7D /* Build configuration list for PBXAggregateTarget "MobileVLCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67DCBAF57C719E723CD552DCAB39F229 /* Debug */,
+				4A0DF1512B63A29B97B45EC1F2528481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -398,11 +540,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		925D35A5ADA3626DF4AB8BB9921A4325 /* Build configuration list for PBXNativeTarget "Pods-MicMock" */ = {
+		9467904249BAC52F3F66AD0F0485E09C /* Build configuration list for PBXNativeTarget "Pods-MicMock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9DE58B9089325D9E769CB9E612AC329 /* Debug */,
-				DE6474C9D5CAD4668E84F76AA546C822 /* Release */,
+				F47583C91BBECDCF2CB111C90277471C /* Debug */,
+				1B66071EE73B6D771EDF34E6A80A6D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

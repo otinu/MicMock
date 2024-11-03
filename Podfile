@@ -6,6 +6,6 @@ target 'MicMock' do
   use_frameworks!
 
   # Pods for MicMock
-  # pod 'MobileVLCKit', '~> 3.3.13'
+  pod 'MobileVLCKit', '~> 3.3.13'
 
 end
